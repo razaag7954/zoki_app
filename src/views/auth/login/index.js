@@ -171,7 +171,7 @@ export default function SignIn() {
                         onChange={(e) => setPassword(e.target.value)}
                     />
                     <FormControlLabel
-                        control={<Checkbox value="remember" color="primary" />}
+                        control={<Checkbox value="remember" />}
                         label="Remember me"
                     />
                     <Button
@@ -180,8 +180,8 @@ export default function SignIn() {
                         // variant="contained"
                         // color="primary"
                         // className={classes.submit}
-                        className={`btn px-4 p-2 rounded-pill w-100 ${classes.submit}`}
-                        style={{ color: '#CFBD45', backgroundColor: 'black' }}
+                        className={`btn px-4 p-2 zoki-btn w-100 ${classes.submit}`}
+                        // style={{ color: '#CFBD45', backgroundColor: 'black' }}
                     >
                         Sign In
                     </Button>

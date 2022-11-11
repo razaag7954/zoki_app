@@ -2,7 +2,7 @@ import axios from 'axios'
 
 // export const SERVER_URI = "https://27bb-182-186-209-190.ngrok.io"
 // export const SERVER_URI = "https://www.staging.api.flywithzoki.com"
-export const SERVER_URI = "https://6d43-39-46-117-211.ngrok.io"
+export const SERVER_URI = "https://d41a-39-46-91-46.ngrok.io"
 
 // Public
 export const GET_ALL_FLIGHT_OFFERS = "/air/flight-offers"
